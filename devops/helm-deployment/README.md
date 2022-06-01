@@ -20,10 +20,3 @@ We want to setup a system in which we can deploy copies of our application stack
   - Any environment variables the app uses will be documented inside of README.md 
 4. Deploy the application to your Kubernetes cluster and then perform a series of tests you think is appropriate to validate that the application works as expected.
   - You must make a namespace for your deployment!
-5. Deploy a copy of the application for a group of customers.
-  - This is a list of the company names, and the corresponding namespaces you should create:
-    - FooCorp (foo-corp)
-    - BarLtd (bar-ltd)
-    - BazIndustries (baz-industries)
-  - You may assume [Values File](https://helm.sh/docs/chart_template_guide/values_files/)s are encrypted-at-rest and consumed securely (you can put secret info in there for this test)
-  - Each deployment should have its own [Values File](https://helm.sh/docs/chart_template_guide/values_files/).

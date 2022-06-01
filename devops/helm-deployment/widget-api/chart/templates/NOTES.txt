@@ -1,0 +1,5 @@
+name: {{ .Release.Name }}
+namespace: {{ .Release.Namespace }}
+service:
+  {{- toYaml .Values.service | nindent 2 }}
+ 
