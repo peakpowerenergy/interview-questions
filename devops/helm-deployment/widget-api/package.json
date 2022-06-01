@@ -1,0 +1,28 @@
+{
+  "name": "widget-api",
+  "version": "1.0.0",
+  "description": "The widget API app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/peakpowerenergy/interview-questions.git"
+  },
+  "keywords": [
+    "widget",
+    "api"
+  ],
+  "author": "DevOps <devops@peakpowerenergy.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peakpowerenergy/interview-questions/issues"
+  },
+  "homepage": "https://github.com/peakpowerenergy/interview-questions#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "systeminformation": "^5.11.16"
+  }
+}
