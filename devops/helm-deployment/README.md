@@ -4,7 +4,7 @@ Create a Helm chart that allows us to deploy the same application with different
 
 ## Background
 
-We want to setup a system in which we can deploy copies of our application stack for each of our customers, so that they can have their own isolated deployments. As part of this effort, you will be creating a Helm chart for the working-title app.
+We want to setup a system in which we can deploy copies of our application stack for each of our customers, so that they can have their own isolated deployments. As part of this effort, you will be creating a Helm chart for the widget-api app.
 
 ## Prerequisites
 
