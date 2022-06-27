@@ -21,10 +21,10 @@ We want to setup a system in which we can deploy copies of our application stack
 
 ## Goals
 
-1. Modify the templates so that they include annotations provided within the [Values File](https://helm.sh/docs/chart_template_guide/values_files/).
+- Modify the templates so that they include annotations provided within the [Values File](https://helm.sh/docs/chart_template_guide/values_files/).
   - For brevity, they may share the same annotations section in the [Values File](https://helm.sh/docs/chart_template_guide/values_files/), rather than having their own separate sections
-2. Modify the templates to include all of the ports that the application requires.
-3. Make any necessary changes to allow passing configuration or environment variables the application requires.
+- Modify the templates to include all of the ports that the application requires.
+- Make any necessary changes to allow passing configuration or environment variables the application requires.
   - Any environment variables the app uses will be documented inside of README.md 
-4. Deploy the application to your Kubernetes cluster and then perform a series of tests you think is appropriate to validate that the application works as expected.
+- Deploy the application to your Kubernetes cluster and then perform a series of tests you think is appropriate to validate that the application works as expected.
   - You must make a namespace for your deployment!
