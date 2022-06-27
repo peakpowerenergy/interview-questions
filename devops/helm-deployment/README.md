@@ -8,8 +8,16 @@ We want to setup a system in which we can deploy copies of our application stack
 
 ## Prerequisites
 
-- Kubernetes and kubectl are installed on your machine
-- You have cloned this repository to your machine
+- You have installed the following applications:
+  - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
+  - [helm](https://helm.sh)
+  - A Kubernetes cluster using `minikube` or Docker Desktop for Mac/Windows.
+    - **Note**: Kubernetes v1.22+ comes with `containerd` by default, which can only read container images, **not build them!**
+      - Instructions for minikube: https://minikube.sigs.k8s.io/docs/drivers/docker/#usage
+      - Docker Desktop for Mac/Windows uses Docker as a default for its Kubernetes cluster, so this should not be an issue
+- You have cloned this repository to your own machine **OR** a "workbench" machine you'll be connecting to in order to run your commands.
+  - Examples include setting up a VM, using your own local OS and environment, etc.
+  - Using one of the Kubernetes nodes is **not** an acceptable workbench!
 
 ## Goals
 
